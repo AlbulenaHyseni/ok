@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funksionet matematikore </title>
+</head>
+<body>
+    <script>
+    function mbledhja(numri1, numri2){
+        return numri1+numri2;
+    }
+    function zbritja(numri1, numri2){
+         return numri1-numri2;
+    }
+    function shumezimi(numri1, numri2){
+         return numri1*numri2;
+    }
+    function pjestimi(numri1,numri2){
+        if(numri2==0){
+            return "Nuk mund te pjestohen numrat me zero";
+        }
+        return numri1/numri2;
+
+    }
+    document.write("Shuma e numrave 5+0 eshte "+ mbledhja(5,0)+"<br>");
+    document.write("Ndryshimi i numrave 5-0 eshte "+ zbritja(5,0)+"<br>");
+    document.write("Prodhimi i numrave 5*0 eshte "+shumezimi(5,0)+"<br>");
+    document.write("hersi i numrave 5/0 eshte "+pjestimi(5,0)+"<br>");
+
+</script>
+</body>
+</html>
